@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+<Button
+    android:id="@+id/wrice"
+    style="@style/Widget.AppCompat.Button.Borderless"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:drawableLeft="@drawable/riceandstew"
+    android:gravity="left|center_vertical"
+    android:text="       Rice \u0026 stew"
+    android:onClick="setOrder"
+    />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/jrice"
+        android:layout_width="fill_parent"
+            android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/jollof"
+            android:gravity="left|center_vertical"
+            android:text="       Jollof Rice"
+            android:onClick="setOrder"
+            />
+        <Button
+            android:id="@+id/frice"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/friedrice"
+            android:gravity="left|center_vertical"
+            android:text="       Fried Rice"
+            android:onClick="setOrder"
+            />
+        <Button
+            android:id="@+id/beans"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/beansandplantain"
+            android:gravity="left|center_vertical"
+            android:text="        beans \u0026 dodo"
+            android:onClick="setOrder"
+            />
+        <Button
+            android:id="@+id/moinmoin"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/moinmoin"
+            android:gravity="left|center_vertical"
+            android:text="       moinmoin"
+            android:onClick="setOrder"
+            />
+        <Button
+            android:id="@+id/porr"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/porrigdeyam"
+            android:gravity="left|center_vertical"
+            android:text="       porridge"
+            android:onClick="setOrder"
+            />
+    </LinearLayout>
+</ScrollView>

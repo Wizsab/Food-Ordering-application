@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.fastfoods">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".WhiteRice" />
+        <activity android:name=".JollofRice" />
+        <activity android:name=".FriedRice" />
+        <activity android:name=".Beans" />
+        <activity android:name=".Moinmoin" />
+        <activity android:name=".Porridge" />
+        <activity android:name=".PoundedYam" />
+        <activity android:name=".AmalaEfo" />
+        <activity android:name=".EbaEfo" />
+        <activity android:name=".EbaEgusi" />
+        <activity android:name=".AmalaEwedu" />
+        <activity android:name=".AmalaGbegiri" />
+        <activity android:name=".Wheat" />
+        <activity android:name=".MeatPie" />
+        <activity android:name=".Scotch" />
+        <activity android:name=".Plantain" />
+        <activity android:name=".Beans1" />
+        <activity android:name=".Moinmoin1" />
+        <activity android:name=".Aboutus" />
+        <activity android:name=".Abouttheapp">
+        </activity>
+    </application>
+
+</manifest>

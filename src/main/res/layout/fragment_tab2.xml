@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab2">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+        <Button
+            android:id="@+id/pYam"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:drawableLeft="@drawable/pyamandefo"
+            android:gravity="left|center_vertical"
+            android:text="       Pounded Yam"
+            android:onClick="setOrder"
+            />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/amaEfo"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/amalaandefo"
+            android:gravity="left|center_vertical"
+            android:text="       Amala \u0026 efo"
+            android:onClick="setOrder"
+            />
+        <Button
+            android:id="@+id/ebaEfo"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ebaandefo"
+            android:gravity="left|center_vertical"
+            android:text="       Eba \u0026 efo"
+            android:onClick="setOrder"
+            />
+        <Button
+            android:id="@+id/ebaEgu"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ebaandehusi"
+            android:gravity="left|center_vertical"
+            android:text="        eba \u0026 egusi"
+            android:onClick="setOrder"
+            />
+        <Button
+            android:id="@+id/amaewe"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/amalaandewedu"
+            android:gravity="left|center_vertical"
+            android:text="       amala \u0026 ewedu"
+            android:onClick="setOrder"
+            />
+        <Button
+            android:id="@+id/amagbe"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/amalaandgbegiri"
+            android:gravity="left|center_vertical"
+            android:text="       amala \u0026 gbegiri"
+            android:onClick="setOrder"
+            />
+        <Button
+            android:id="@+id/wheefo"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/wheatandefo"
+            android:gravity="left|center_vertical"
+            android:text="       wheat \u0026 efo"
+            android:onClick="setOrder"
+            />
+    </LinearLayout>
+
+</ScrollView>
